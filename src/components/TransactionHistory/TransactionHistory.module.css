@@ -1,0 +1,26 @@
+.tableAll {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.tHead {
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  background-color: aqua;
+}
+
+.tBodyItem {
+  text-transform: capitalize;
+  color: gray;
+  background-color: white;
+  height: 40px;
+  text-align: center;
+
+  &:nth-child(even) {
+    color: #5b5859;
+    background-color: silver;
+  }
+}
