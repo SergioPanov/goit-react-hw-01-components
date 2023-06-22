@@ -1,42 +1,47 @@
 .profile {
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 0 auto;
 }
 
 .description {
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 30px;
   gap: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 350px;
-  width: 350px;
 }
 
 .avatar {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .name {
   color: black;
-  font-size: large;
+  font-size: x-large;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .tag {
   color: gray;
+  font-size: large;
+  font-weight: bold;
 }
 
 .location {
   color: gray;
+  font-size: large;
 }
 
 .stats {
@@ -44,12 +49,13 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-around;
   background-color: whitesmoke;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
   list-style: none;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .statsItem {
@@ -57,11 +63,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 120px;
   height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.24);
+  border: none;
 }
 
 .label {
-  color: grey;
+  color: gray;
+  font-weight: bold;
+  font-size: small;
 }
